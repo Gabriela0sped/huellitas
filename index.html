@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Huellitas: encuentra un compañero de vida y dale una segunda oportunidad.">
+    <meta name="theme-color" content="#f7f8f2">
+    <title>Huellitas | Un hogar para todos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header" id="inicio">
+        <nav class="navbar container">
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">🐾</span>
+                <span>Huellitas<span class="logo-dot">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#mascotas">Mascotas</a></li>
+                <li><a href="#adopcion" class="nav-button">Adoptar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <span class="tag">♥ ADOPCIÓN RESPONSABLE</span>
+
+                    <h1>
+                        El amor tiene
+                        <span>cuatro patas.</span>
+                    </h1>
+
+                    <p>
+                        Hay un amigo esperando por ti. Cambia una vida
+                        y descubre la felicidad de darle un hogar a
+                        quien solo necesita una oportunidad.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#mascotas" class="btn">
+                            Conoce a nuestros amigos <span>→</span>
+                        </a>
+                        <a href="#nosotros" class="text-link">
+                            Conoce nuestra misión
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span>🐶</span>
+                        <p>Adoptar es elegir amor para toda la vida.</p>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-decoration"></div>
+                    <img src="img/perro.jpg" alt="Perro que representa a las mascotas en adopción">
+                    <div class="floating-note">
+                        <span class="floating-icon">💚</span>
+                        <div>
+                            <strong>Un nuevo comienzo</strong>
+                            <small>Puede empezar contigo</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section class="about section-padding" id="nosotros">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">NUESTRA MISIÓN</span>
+                    <h2>Todos merecen una <span>segunda oportunidad.</span></h2>
+                    <p>
+                        Creemos que cada mascota merece una familia,
+                        un lugar seguro y una vida llena de cariño.
+                    </p>
+                </div>
+
+                <div class="values">
+                    <article class="value-card">
+                        <div class="value-icon">❤️</div>
+                        <h3>Amor</h3>
+                        <p>Promovemos vínculos llenos de cariño, respeto y compromiso.</p>
+                    </article>
+
+                    <article class="value-card">
+                        <div class="value-icon">🏡</div>
+                        <h3>Familia</h3>
+                        <p>Queremos que cada mascota encuentre un hogar donde pertenecer.</p>
+                    </article>
+
+                    <article class="value-card">
+                        <div class="value-icon">🐾</div>
+                        <h3>Protección</h3>
+                        <p>Fomentamos la adopción responsable y el bienestar animal.</p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MASCOTAS -->
+        <section class="pets section-padding" id="mascotas">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">CONOCE A NUESTROS AMIGOS</span>
+                    <h2>Alguien especial te <span>está esperando.</span></h2>
+                    <p>
+                        Conoce sus historias, descubre sus personalidades
+                        y encuentra a tu próximo compañero de vida.
+                    </p>
+                </div>
+
+                <div class="pet-grid">
+
+                    <article class="pet-card">
+                        <div class="pet-image">
+                            <img src="img/perro.jpg" alt="Max, perro de dos años disponible para adopción">
+                            <span class="status">● Disponible</span>
+                        </div>
+                        <div class="pet-info">
+                            <div class="pet-title">
+                                <h3>Max</h3>
+                                <span class="pet-type">🐶</span>
+                            </div>
+                            <p class="pet-description">Perro · 2 años</p>
+                            <p class="pet-personality">Cariñoso, alegre y juguetón.</p>
+                            <button class="btn adopt-btn" data-pet="Max">
+                                Quiero conocerlo <span>→</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="pet-card">
+                        <div class="pet-image">
+                            <img src="img/gato.jpg" alt="Luna, gata de un año disponible para adopción">
+                            <span class="status">● Disponible</span>
+                        </div>
+                        <div class="pet-info">
+                            <div class="pet-title">
+                                <h3>Luna</h3>
+                                <span class="pet-type">🐱</span>
+                            </div>
+                            <p class="pet-description">Gata · 1 año</p>
+                            <p class="pet-personality">Tranquila, dulce y amorosa.</p>
+                            <button class="btn adopt-btn" data-pet="Luna">
+                                Quiero conocerla <span>→</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="pet-card">
+                        <div class="pet-image">
+                            <img src="img/conejo.jpg" alt="Coco, conejo de ocho meses disponible para adopción">
+                            <span class="status">● Disponible</span>
+                        </div>
+                        <div class="pet-info">
+                            <div class="pet-title">
+                                <h3>Coco</h3>
+                                <span class="pet-type">🐰</span>
+                            </div>
+                            <p class="pet-description">Conejo · 8 meses</p>
+                            <p class="pet-personality">Tierno, curioso y tranquilo.</p>
+                            <button class="btn adopt-btn" data-pet="Coco">
+                                Quiero conocerlo <span>→</span>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESO DE ADOPCIÓN -->
+        <section class="process section-padding">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="tag">DAR EL PRIMER PASO</span>
+                    <h2>Adoptar es más fácil de lo que <span>imaginas.</span></h2>
+                    <p>Un pequeño paso para ti puede significar una vida nueva para ellos.</p>
+                </div>
+
+                <div class="steps">
+                    <article class="step">
+                        <span class="step-number">01</span>
+                        <div class="step-icon">🐾</div>
+                        <h3>Conoce</h3>
+                        <p>Explora las mascotas y encuentra aquella con la que conectes.</p>
+                    </article>
+
+                    <article class="step">
+                        <span class="step-number">02</span>
+                        <div class="step-icon">📝</div>
+                        <h3>Cuéntanos</h3>
+                        <p>Completa el formulario y manifiesta tu interés en adoptar.</p>
+                    </article>
+
+                    <article class="step">
+                        <span class="step-number">03</span>
+                        <div class="step-icon">💚</div>
+                        <h3>Conecta</h3>
+                        <p>Conoce los siguientes pasos para iniciar una nueva historia.</p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="adoption section-padding" id="adopcion">
+            <div class="container adoption-container">
+
+                <div class="adoption-text">
+                    <span class="tag">TU HISTORIA PUEDE EMPEZAR AQUÍ</span>
+                    <h2>¿Listo para encontrar a tu <span>nuevo mejor amigo?</span></h2>
+                    <p>
+                        Nos encantaría conocer un poco de ti.
+                        Déjanos tus datos y cuéntanos qué mascota
+                        te gustaría conocer.
+                    </p>
+
+                    <div class="adoption-highlight">
+                        <span>💚</span>
+                        <p>Una adopción responsable es un compromiso para toda la vida.</p>
+                    </div>
+                </div>
+
+                <form id="adoptionForm" class="adoption-form">
+
+                    <h3>Formulario de interés</h3>
+                    <p class="form-description">Completa tus datos para continuar.</p>
+
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre"
+                        placeholder="Ej. Gabriela Pérez" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo"
+                        placeholder="correo@ejemplo.com" required>
+
+                    <label for="mascota">¿A quién te gustaría conocer?</label>
+                    <select id="mascota" name="mascota" required>
+                        <option value="">Selecciona una mascota</option>
+                        <option value="Max">Max - Perro</option>
+                        <option value="Luna">Luna - Gata</option>
+                        <option value="Coco">Coco - Conejo</option>
+                    </select>
+
+                    <label for="mensaje">Cuéntanos un poco sobre ti</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"
+                        placeholder="¿Por qué deseas adoptar?"></textarea>
+
+                    <button type="submit" class="btn submit-btn">
+                        Enviar solicitud <span>→</span>
+                    </button>
+
+                    <p id="respuesta" role="status" aria-live="polite"></p>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon">🐾</span>
+                    <span>Huellitas<span class="logo-dot">.</span></span>
+                </a>
+                <p>Un hogar, una segunda oportunidad.</p>
+            </div>
+
+            <a href="#inicio" class="back-top">Volver al inicio ↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Huellitas. Proyecto académico.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
